@@ -58,8 +58,7 @@ const Header = () => {
                                 <a className="nabvar-section nabvar-tittle" href="#seccion1" onClick={clickbotones}>&lt; POSTS &#160;&#160;/&gt;</a>
                                 <a className="nabvar-section nabvar-tittle" href="#seccion1" onClick={clickbotones}>&lt; CONTACT&#160;&#160;/&gt;</a></figcaption>
                         </figure>
-                    </div>}
-                    
+                    </div>}  
             </div>
         </div>  
         </>
