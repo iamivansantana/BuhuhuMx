@@ -1,6 +1,11 @@
 import React from 'react'
 
 const Item = () => {
+
+    const a = ['a','b','c'];
+    a[100]='fox';
+    console.log(a.length);
+
     return (
         <>
         <div className="items" style={{width:'95%'}}>
