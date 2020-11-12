@@ -1,8 +1,9 @@
 import React from 'react'
 import About from './About';
-import Item from './Item';
+
 import Portada from './Portada';
 import Skills from './Skills';
+
 
 
 
