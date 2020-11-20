@@ -33,8 +33,8 @@ const Skills = () => {
                 </div>
                 <div className="skills">
                     {
-                      numberSkills.map(numbers=>(
-                        <div className="row" key={numbers[numbers]}>
+                      numberSkills.map((numbers,i)=>(//el parametro i es para utilizar la iteracion de cada map y despues utilizarlo como key
+                        <div className="row" key={i}>
                             {numbers.map(datos=>(                                
                                 <Skill 
                                 key={datos.nombre}

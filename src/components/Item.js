@@ -14,9 +14,11 @@ const Item = () => {
                     <div className="item-card" style={{backgroundColor:'black'}}>
                         <div className="item-card-title">
                             <div className="item-card-title-izq">
-                                <span>Hola mundo</span>
+                                <span>Hola mundo...</span>
                             </div>
-                            <div className="item-card-title-der"></div>
+                            <div className="item-card-title-der">
+                                hola
+                           </div>
                         </div>
                         <div className="item-card-conten">
                             <div className="item-card-left" ></div>
@@ -25,6 +27,8 @@ const Item = () => {
                         <div className="item-card-description"></div>
                     </div>
                 </div>
+
+
                 <div className="column">
                     <div className="item-card" style={{backgroundColor:'black'}}>
                     </div>
