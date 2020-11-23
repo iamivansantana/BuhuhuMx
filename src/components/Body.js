@@ -23,6 +23,7 @@ import Skills from './Skills';
         <section id='seccion4'>
             <h3 style={{textAlign:"center"}}>Sección en Producción...</h3>
             <Item />
+            <h3 style={{textAlign:"center"}}>Ver Más...</h3>
         </section>
             
 

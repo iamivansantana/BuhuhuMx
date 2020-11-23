@@ -29,9 +29,9 @@ const Header = () => {
                     <nav id="nav">
                         
                             <a className="nabvar-section nabvar-tittle" href="#seccion2">&lt; ABOUT ME &#160;&#160;/&gt;</a>
-                            <a className="nabvar-section nabvar-tittle" href="#seccion3">&lt; PORTFOLIO&#160;&#160;/&gt;</a>
-                            <a className="nabvar-section nabvar-tittle" href="https://www.buhuhu.mx">&lt; POSTS &#160;&#160;/&gt;</a>
-                            <a className="nabvar-section nabvar-tittle" href="https://www.buhuhu.mx">&lt; CONTACT&#160;&#160;/&gt;</a>
+                            <a className="nabvar-section nabvar-tittle" href="#seccion4">&lt; PORTFOLIO&#160;&#160;/&gt;</a>
+                            <a className="nabvar-section nabvar-tittle" href="#seccion1">&lt; POSTS &#160;&#160;/&gt;</a>
+                            <a className="nabvar-section nabvar-tittle" href="#seccion1">&lt; CONTACT&#160;&#160;/&gt;</a>
                         
                     </nav>
                     <a className="toggle-btn" id="btn" href="#ejemplo1" onClick={clickbotones}>
@@ -54,7 +54,7 @@ const Header = () => {
                             <figcaption>
                             <div className="toggle-close"><span onClick={clickbotones} style={{transform: "scale(2)", fontWeight: "300"}}>|||</span></div>
                                 <a className="nabvar-section nabvar-tittle" href="#seccion2" onClick={clickbotones}>&lt; ABOUT ME &#160;&#160;/&gt;</a>
-                                <a className="nabvar-section nabvar-tittle" href="#seccion3" onClick={clickbotones}>&lt; PORTFOLIO&#160;&#160;/&gt;</a>
+                                <a className="nabvar-section nabvar-tittle" href="#seccion4" onClick={clickbotones}>&lt; PORTFOLIO&#160;&#160;/&gt;</a>
                                 <a className="nabvar-section nabvar-tittle" href="#seccion1" onClick={clickbotones}>&lt; POSTS &#160;&#160;/&gt;</a>
                                 <a className="nabvar-section nabvar-tittle" href="#seccion1" onClick={clickbotones}>&lt; CONTACT&#160;&#160;/&gt;</a></figcaption>
                         </figure>
