@@ -25,6 +25,7 @@ const Skills = () => {
     ]);
     const[numberSkills]=useState([skillsUno,skillsDos,skillsTres,skillsCuatro]);
 
+    const URL = 'https://drive.google.com/file/d/1ASAqUGqMAbjJKrVmRYND903qsVYwQahe/view?usp=sharing'
     return (
         <>
             <div className="body-area3">
@@ -45,6 +46,18 @@ const Skills = () => {
                       ))  
                     }
                 </div>
+                <a
+                    href={URL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="resume"
+                >
+                    <spam
+                        style={{fontSize:'3rem'}}
+                    > ➡
+                    
+                    </spam>
+                </a>
             </div>  
         </>
     )

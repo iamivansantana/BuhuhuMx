@@ -15,7 +15,7 @@ const Item = () => {
             </div>
             <div className="item-card-title-der">
               <img
-                src="images/GitHub-Mark-32px.png"
+                src="Images/icon-g.png"
                 alt="Enlace git"
                 style={{ marginTop: "4%" }}
                 height="80%"
@@ -54,7 +54,7 @@ const Item = () => {
             </div>
             <div className="item-card-title-der">
               <img
-                src="images/GitHub-Mark-32px.png"
+                src="Images/icon-g.png"
                 alt="Enlace git"
                 style={{ marginTop: "4%" }}
                 height="80%"
@@ -93,7 +93,7 @@ const Item = () => {
             </div>
             <div className="item-card-title-der">
               <img
-                src="images/GitHub-Mark-32px.png"
+                src="Images/icon-g.png"
                 alt="Enlace git"
                 style={{ marginTop: "4%" }}
                 height="80%"

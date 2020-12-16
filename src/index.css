@@ -352,6 +352,24 @@ body {
   flex: 33%; 
   
 }
+.resume{
+  text-decoration: none;
+  background: #47d6d6;
+  padding: 10px;
+  position: absolute;
+  width: 4%;
+  text-align: center;
+  bottom: 15%;
+  left: 50%;
+  border-radius: 3px;
+  transform: translate(-50%);
+  color: #ffffff;
+}
+.resume:hover{
+  background: #52f8f8;
+  color: black;
+}
+
 .container-grid{
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
@@ -403,12 +421,15 @@ box-shadow: 0px -1px 14px 0px rgba(0,0,0,0.75); */
 position: absolute;
 color: white;
 background-color: #122336;
-padding: 3px;
+padding: 5px;
 border-radius: 3px;
 width: 100%;
 top: 50%;
-left: 2%;
+left: 20%;
 transform: translate(0,-50%);
+text-align: center;
+font-family: Helvetica, sans-serif;
+font-weight: lighter;
 -webkit-box-shadow: 0px -1px 14px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px -1px 14px 0px rgba(0,0,0,0.75);
 box-shadow: 0px -1px 14px 0px rgba(0,0,0,0.75);
@@ -804,20 +825,27 @@ box-shadow: 3px 3px 20px 2px rgba(138,136,138,0.6);
       min-height: 35rem; 
       height: 36rem;
     }
+    .row {
+      display: flex;
+    }
+    .column {
+       
+      
+    }
+    .skills{
+      
+      min-height:45%;
+      
+    }
     .skills-cad-left{
-      display: none;
+      
     }
-    .skills-cad-right{
-      position: relative;
-      /* background-color: rgb(46, 205, 216); */
-      left: 5%;
-      width: 30%;
-      padding-top: 17%;
-      height: 90px;
+    .skills-span{
+      font-size: .7rem;
+      padding: 9px;
+      left: 10%;
     }
-    .background-img:hover{
-      transform: scale(1);
-    }
+    
     .titulo{
       position: relative;
       left: 50%;
