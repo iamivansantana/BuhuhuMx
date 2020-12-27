@@ -4,24 +4,24 @@ import Skill from './Skill';
 const Skills = () => {
     
     const[skillsUno] = useState([
-        {nombre:'HTML5',pad:'Images/html5.svg'},
-        {nombre:'CSS3',pad:'Images/css3.svg'},
-        {nombre:'JAVASCRIPT',pad:'Images/js.png'}
+        {nombre:'HTML5'},
+        {nombre:'CSS3'},
+        {nombre:'JAVASCRIPT'}
     ]);
     const[skillsDos]=useState([
-        {nombre:'TYPESCRIPT',pad:'Images/typescript.png'},
-        {nombre:'REACT JS',pad:'Images/react.png'},
-        {nombre:'JAVA',pad:'Images/java.png'}
+        {nombre:'TYPESCRIPT'},
+        {nombre:'REACT JS'},
+        {nombre:'JAVA'}
     ]);
     const[skillsTres]=useState([
-        {nombre:'SQL',pad:'Images/sql.png'},
-        {nombre:'NODE.JS',pad:'Images/node.png'},
-        {nombre:'JSON',pad:'Images/json.png'}
+        {nombre:'SQL'},
+        {nombre:'NODE.JS'},
+        {nombre:'JSON'}
     ]);
     const[skillsCuatro]=useState([
-        {nombre:'GIT & GITHUB',pad:'Images/hit.png'},
-        {nombre:'PHOTOSHOP',pad:'Images/ps.png'},
-        {nombre:'ILLUSTRATION',pad:'Images/ai.png'}
+        {nombre:'GIT & GITHUB'},
+        {nombre:'PHOTOSHOP'},
+        {nombre:'ILLUSTRATION'}
     ]);
     const[numberSkills]=useState([skillsUno,skillsDos,skillsTres,skillsCuatro]);
 
@@ -46,18 +46,29 @@ const Skills = () => {
                       ))  
                     }
                 </div>
+                
+
+                
                 <a
                     href={URL}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="resume"
+                    style={{textDecoration:'none'}}
+                    className="resume-cont"
                 >
-                    <spam
-                        style={{fontSize:'3rem'}}
-                    > ➡
+                    {/* <span>SHOW RESUME</span> */}
+                    <span
+                    style={{color:'white'}}
+                >Show Resume  </span>
+
+                    <span
+                        style={{fontSize:'1rem'}}
+                        className="resume"
+                        > ➡
                     
-                    </spam>
+                    </span>
                 </a>
+                
             </div>  
         </>
     )

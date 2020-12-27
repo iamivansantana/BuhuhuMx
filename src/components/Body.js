@@ -1,5 +1,6 @@
 import React from 'react'
 import About from './About';
+import Contact from './Contact';
 import Item from './Item';
 import Portada from './Portada';
 import Skills from './Skills';
@@ -21,9 +22,12 @@ import Skills from './Skills';
             <Skills />
         </section>
         <section id='seccion4'>
-            <h3 style={{textAlign:"center"}}>Sección en Producción...</h3>
+            <h3 style={{textAlign:"center",textTransform:'uppercase'}}>Projects</h3>
             <Item />
-            <h3 style={{textAlign:"center"}}>Ver Más...</h3>
+            
+        </section>
+        <section id='seccion5'>
+            <Contact />
         </section>
             
 

@@ -31,7 +31,7 @@ const Header = () => {
                             <a className="nabvar-section nabvar-tittle" href="#seccion2">&lt; ABOUT ME &#160;&#160;/&gt;</a>
                             <a className="nabvar-section nabvar-tittle" href="#seccion4">&lt; PORTFOLIO&#160;&#160;/&gt;</a>
                             <a className="nabvar-section nabvar-tittle" href="#seccion1">&lt; POSTS &#160;&#160;/&gt;</a>
-                            <a className="nabvar-section nabvar-tittle" href="#seccion1">&lt; CONTACT&#160;&#160;/&gt;</a>
+                            <a className="nabvar-section nabvar-tittle" href="#seccion5">&lt; CONTACT&#160;&#160;/&gt;</a>
                         
                     </nav>
                     <a className="toggle-btn" id="btn" href="#ejemplo1" onClick={clickbotones}>
@@ -56,7 +56,7 @@ const Header = () => {
                                 <a className="nabvar-section nabvar-tittle" href="#seccion2" onClick={clickbotones}>&lt; ABOUT ME &#160;&#160;/&gt;</a>
                                 <a className="nabvar-section nabvar-tittle" href="#seccion4" onClick={clickbotones}>&lt; PORTFOLIO&#160;&#160;/&gt;</a>
                                 <a className="nabvar-section nabvar-tittle" href="#seccion1" onClick={clickbotones}>&lt; POSTS &#160;&#160;/&gt;</a>
-                                <a className="nabvar-section nabvar-tittle" href="#seccion1" onClick={clickbotones}>&lt; CONTACT&#160;&#160;/&gt;</a></figcaption>
+                                <a className="nabvar-section nabvar-tittle" href="#seccion5" onClick={clickbotones}>&lt; CONTACT&#160;&#160;/&gt;</a></figcaption>
                         </figure>
                     </div>}  
             </div>

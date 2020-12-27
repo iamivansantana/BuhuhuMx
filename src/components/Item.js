@@ -1,12 +1,10 @@
 import React from "react";
 
 const Item = () => {
-  const a = ["a", "b", "c"];
-  a[100] = "fox";
-  console.log(a.length);
+  
 
   return (
-    <>
+    <><div className="items-cont">
       <div className="container-grid">
         <div className="item-card">
           <div className="item-card-title">
@@ -127,6 +125,8 @@ const Item = () => {
         </div>
         
       </div>
+      </div>
+      <h3 style={{textAlign:"center",position:'relative',bottom:'-80px',cursor:'pointer'}}>See More...</h3>
     </>
   );
 };
