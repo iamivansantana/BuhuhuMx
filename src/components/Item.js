@@ -12,12 +12,17 @@ const Item = () => {
               <span style={{ marginLeft: "10%" }}>Mi Portafolio.</span>
             </div>
             <div className="item-card-title-der">
-              <img
+              {/* <img
                 src="Images/icon-g.png"
                 alt="Enlace git"
-                style={{ marginTop: "4%" }}
-                height="80%"
-              />
+                
+              /> */}
+              <a href='https://github.com/'
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{textDecoration:'none',color:"black",fontSize:"2.2rem"}}
+                className="social-icons"><i class="fa fa-github"></i>
+              </a>
             </div>
           </div>
           <div className="item-card-conten">
@@ -51,12 +56,12 @@ const Item = () => {
               <span style={{ marginLeft: "10%" }}>Mi Portafolio.</span>
             </div>
             <div className="item-card-title-der">
-              <img
-                src="Images/icon-g.png"
-                alt="Enlace git"
-                style={{ marginTop: "4%" }}
-                height="80%"
-              />
+            <a href='https://github.com/'
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{textDecoration:'none',color:"black",fontSize:"2.2rem"}}
+                className="social-icons"><i class="fa fa-github"></i>
+              </a>
             </div>
           </div>
           <div className="item-card-conten">
@@ -90,12 +95,12 @@ const Item = () => {
               <span style={{ marginLeft: "10%" }}>Mi Portafolio.</span>
             </div>
             <div className="item-card-title-der">
-              <img
-                src="Images/icon-g.png"
-                alt="Enlace git"
-                style={{ marginTop: "4%" }}
-                height="80%"
-              />
+            <a href='https://github.com/'
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{textDecoration:'none',color:"black",fontSize:"2.2rem"}}
+                className="social-icons"><i class="fa fa-github"></i>
+              </a>
             </div>
           </div>
           <div className="item-card-conten">
