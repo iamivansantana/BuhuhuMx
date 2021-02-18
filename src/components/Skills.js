@@ -25,7 +25,7 @@ const Skills = () => {
     ]);
     const[numberSkills]=useState([skillsUno,skillsDos,skillsTres,skillsCuatro]);
 
-    const URL = 'https://drive.google.com/file/d/1ASAqUGqMAbjJKrVmRYND903qsVYwQahe/view?usp=sharing'
+    const URL = 'https://drive.google.com/file/d/1LirtO4iqhKf417Ow3a5eg8_Auz35ltxI/view?usp=sharing'
     return (
         <>
             <div className="body-area3">

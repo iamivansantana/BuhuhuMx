@@ -108,7 +108,7 @@ const Contact = () => {
                     <div style={{width:'90%'}}><p style={{fontWeight:'100'}}>Email:  <a style={{textDecoration:'none', color:'#111620'}} href="mailto:iam.ivansantana@gmail.com"  >iam.ivansantana@gmail.com</a></p></div>
                     <div style={{width:'90%',backgroundColor:''}}>
                         <div className="social-media">
-                            <a href='https://twitter.com/BuhuhuMx'
+                            <a href='https://twitter.com/IvanSantanaKing'
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 style={{textDecoration:'none'}}
@@ -124,7 +124,7 @@ const Contact = () => {
                                 rel="noopener noreferrer"
                                 style={{textDecoration:'none'}}
                                 className="form-input-sumbit social-icons"><i class="fa fa-instagram"></i></a>
-                            <a href='https://github.com/'
+                            <a href='https://github.com/iamivansantana'
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 style={{textDecoration:'none'}}
