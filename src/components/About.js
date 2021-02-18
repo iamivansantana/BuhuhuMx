@@ -36,13 +36,13 @@ const About = () => {
                             }}
                         >
                             <p>
-                            <i className="em em-wave"></i>Hola, mi nombre es Iván Santana, soy Diseñador y Desarrollador web.
-                                Mi enfoque ha sido principalmente el desarrollo web front-end.
+                            <i className="em em-wave"></i>Hello, my name is Iván Santana, I am a Designer and Web Developer.
+                                My focus has been primarily front-end web development.
                                 <br></br><br></br>
-                                Soy una persona responsable, comprometida con cualquier proyecto que se lleve a cabo, entusiasta, creativa y colaborativa, trabajando en equipo, aprendiendo de los demás y ayudando en todo momento.
+                                I am a responsible person, committed to any project that is carried out, enthusiastic, creative and collaborative, working as a team, learning from others and helping at all times.
                                 <br></br><br></br>
 
-                                Por otro lado me encanta disfrutar de las pequeñas y grandes cosas de la vida, soy apasionado de la música, me encantan los lugares con música en vivo,<i className="em em-the_horns" ></i><i className="em em-sunglasses" ></i> amo viajar,<i className="em em-earth_americas" ></i> me fascinan los perros<i className="em em-dog" ></i> y mi trabajo como desarrollador.<i className="em em-computer" ></i><i className="em em-muscle" ></i>
+                                On the other hand I love to enjoy the small and big things in life, I am passionate about music, I love places with live music,<i className="em em-the_horns" ></i><i className="em em-sunglasses" ></i> I love to travel,<i className="em em-earth_americas" ></i> I love dogs<i className="em em-dog" ></i> and my I work as a developer.<i className="em em-computer" ></i><i className="em em-muscle" ></i>
                             </p>
                         </div>
                         <div className="photo2"></div>
