@@ -36,7 +36,7 @@ const About = () => {
                             }}
                         >
                             <p>
-                            <i className="em em-wave"></i>Hello, my name is Iván Santana, I am a Designer and Web Developer.
+                            <i className="em em-wave"></i>1Hello, my name is Iván Santana, I am a Designer and Web Developer.
                                 My focus has been primarily front-end web development.
                                 <br></br><br></br>
                                 I am a responsible person, committed to any project that is carried out, enthusiastic, creative and collaborative, working as a team, learning from others and helping at all times.
