@@ -2,4 +2,4 @@
 deployment:
  tasks:
  - export DEPLOYPATH=/home/co925ujf090f/public_html/
- - /bin/cp -R /build $DEPLOYPATH
+ - /bin/cp prueba.txt $DEPLOYPATH
