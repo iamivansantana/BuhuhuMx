@@ -9,7 +9,7 @@ const Item = () => {
         <div className="item-card">
           <div className="item-card-title">
             <div className="item-card-title-izq">
-              <span style={{ marginLeft: "10%" }}>Mi Portafolio.</span>
+              <span style={{ marginLeft: "10%" }}>Portfolio.</span>
             </div>
             <div className="item-card-title-der">
               {/* <img
@@ -45,15 +45,16 @@ const Item = () => {
           </div>
           <div className="item-card-description">
             <span>
-                Este Proyecto fue desarrollado con ReactJS y otros. 
-                Haz clic aqui para mostrar mas....
+                Project developed with, ReactJS.<br /> 
+                clic here for more....
             </span>
           </div>
         </div>
+        
         <div className="item-card">
           <div className="item-card-title">
             <div className="item-card-title-izq">
-              <span style={{ marginLeft: "10%" }}>Mi Portafolio.</span>
+              <span style={{ marginLeft: "10%" }}>Portfolio.</span>
             </div>
             <div className="item-card-title-der">
             <a href='https://github.com/'

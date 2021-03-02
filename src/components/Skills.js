@@ -11,11 +11,11 @@ const Skills = () => {
     const[skillsDos]=useState([
         {nombre:'TYPESCRIPT'},
         {nombre:'REACT JS'},
-        {nombre:'JAVA'}
+        {nombre:'NODE.JS'}
     ]);
     const[skillsTres]=useState([
-        {nombre:'SQL'},
-        {nombre:'NODE.JS'},
+        {nombre:'EXPRESS'},
+        {nombre:'MONGO DB'},
         {nombre:'JSON'}
     ]);
     const[skillsCuatro]=useState([
@@ -25,7 +25,7 @@ const Skills = () => {
     ]);
     const[numberSkills]=useState([skillsUno,skillsDos,skillsTres,skillsCuatro]);
 
-    const URL = 'https://drive.google.com/file/d/1LirtO4iqhKf417Ow3a5eg8_Auz35ltxI/view?usp=sharing'
+    const URL = 'https://drive.google.com/file/d/1NWJGlgbNlH3vE2Bn2y4axSGoxQOZQy-B/view?usp=sharing'
     return (
         <>
             <div className="body-area3">

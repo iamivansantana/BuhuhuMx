@@ -1,6 +1,6 @@
 import React from 'react';
 import Body from './components/Body';
-import Header from './components/Header';
+import NavBar from './components/NavBar';
 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
           <div className="double-bounce2"></div>
         </div>
       </div>    
-      <Header />
+      <NavBar />
       <Body />
     
     </>

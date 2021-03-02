@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 
-const Header = () => {
+const NavBar = () => {
     const[estado,setEstado]= useState(true);
 
     const clickbotones = ()=>{
@@ -65,4 +65,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default NavBar
