@@ -6,6 +6,7 @@ const Item = () => {
   return (
     <><div className="items-cont">
       <div className="container-grid">
+        
         <div className="item-card">
           <div className="item-card-title">
             <div className="item-card-title-izq">
@@ -50,7 +51,7 @@ const Item = () => {
             </span>
           </div>
         </div>
-        
+
         <div className="item-card">
           <div className="item-card-title">
             <div className="item-card-title-izq">
