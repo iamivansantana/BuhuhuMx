@@ -113,22 +113,22 @@ const Contact = () => {
                                 rel="noopener noreferrer"
                                 style={{textDecoration:'none'}}
                                 className="form-input-sumbit social-icons">
-                            <i class="fa fa-twitter"></i></a>
+                            <i className="fa fa-twitter"></i></a>
                             <a href='https://www.linkedin.com/in/ivan-ojendis-santana-71b2051b7/'
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 style={{textDecoration:'none'}}
-                                className="form-input-sumbit social-icons"><i class="fa fa-linkedin"></i></a>
+                                className="form-input-sumbit social-icons"><i className="fa fa-linkedin"></i></a>
                             <a href='https://www.instagram.com/ivansanttana/'
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 style={{textDecoration:'none'}}
-                                className="form-input-sumbit social-icons"><i class="fa fa-instagram"></i></a>
+                                className="form-input-sumbit social-icons"><i className="fa fa-instagram"></i></a>
                             <a href='https://github.com/iamivansantana'
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 style={{textDecoration:'none'}}
-                                className="form-input-sumbit social-icons"><i class="fa fa-github"></i></a>
+                                className="form-input-sumbit social-icons"><i className="fa fa-github"></i></a>
                         </div>
 
                     </div>

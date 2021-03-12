@@ -22,13 +22,13 @@ const Item = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{textDecoration:'none',color:"black",fontSize:"2.2rem"}}
-                className="social-icons"><i class="fa fa-github"></i>
+                className="social-icons"><i className="fa fa-github"></i>
               </a>
             </div>
           </div>
           <div className="item-card-conten">
             <div className="item-card-left">
-              <img
+              <img loading="lazy"
                 className="center"
                 src="Images/captura-pc.png"
                 alt="imagen1"
@@ -37,6 +37,7 @@ const Item = () => {
             </div>
             <div className="item-card-right">
               <img
+                loading="lazy"
                 className="center"
                 src="Images/captura-cel.png"
                 alt="imagen2"
@@ -62,13 +63,14 @@ const Item = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{textDecoration:'none',color:"black",fontSize:"2.2rem"}}
-                className="social-icons"><i class="fa fa-github"></i>
+                className="social-icons"><i className="fa fa-github"></i>
               </a>
             </div>
           </div>
           <div className="item-card-conten">
             <div className="item-card-left">
               <img
+                loading="lazy"
                 className="center"
                 src="Images/captura-pc.png"
                 alt="imagen1"
@@ -77,6 +79,7 @@ const Item = () => {
             </div>
             <div className="item-card-right">
               <img
+                loading="lazy"
                 className="center"
                 src="Images/captura-cel.png"
                 alt="imagen2"
@@ -101,13 +104,14 @@ const Item = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{textDecoration:'none',color:"black",fontSize:"2.2rem"}}
-                className="social-icons"><i class="fa fa-github"></i>
+                className="social-icons"><i className="fa fa-github"></i>
               </a>
             </div>
           </div>
           <div className="item-card-conten">
             <div className="item-card-left">
               <img
+                loading="lazy"
                 className="center"
                 src="Images/captura-pc.png"
                 alt="imagen1"
@@ -116,6 +120,7 @@ const Item = () => {
             </div>
             <div className="item-card-right">
               <img
+                loading="lazy"
                 className="center"
                 src="Images/captura-cel.png"
                 alt="imagen2"

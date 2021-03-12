@@ -3,7 +3,8 @@ import { Parallax } from 'react-parallax';
 
 
 const About = () => {
-    const imagen = 'https://cdn.pixabay.com/photo/2016/04/12/11/19/coffee-1324126_960_720.jpg';
+    const imagen = './Images/captura-pc.png';
+    
     
     return (
         <div className="body-area2">
@@ -45,7 +46,7 @@ const About = () => {
                                 On the other hand I love to enjoy the small and big things in life, I am passionate about music, I love places with live music,<i className="em em-the_horns" ></i><i className="em em-sunglasses" ></i> I love to travel,<i className="em em-earth_americas" ></i> I love dogs<i className="em em-dog" ></i> and my I work as a developer.<i className="em em-computer" ></i><i className="em em-muscle" ></i>
                             </p>
                         </div>
-                        <div className="photo2"></div>
+                        <div loading="lazy" className="photo2"></div>
 
                     </div>
                 )}

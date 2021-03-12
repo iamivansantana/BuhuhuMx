@@ -12,7 +12,7 @@ const Portada = () => {
             <div className="caja-ios">
                 <div className="contenedorIzq">
                     <div className="fantasma"></div>
-                    <img className="foto" src="ios.png" alt="ios" width="80%"/> 
+                    <img loading="lazy" className="foto" src="ios.png" alt="ios" width="80%"/> 
                         {/* <img className="foto" src="ios.png" alt="ios" width="100%" height="100%"/> */}
                 </div>
             </div>
