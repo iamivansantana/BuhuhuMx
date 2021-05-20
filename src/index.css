@@ -864,7 +864,7 @@ label{
       background-image: url("gost.svg");
       background-size: 100% 100% ;
       overflow: hidden;
-      opacity: 0%;
+      opacity: 20%;
       z-index:8;
       animation: fantasmaon 1.5s 1 ;
       animation-delay: 4s;
